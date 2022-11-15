@@ -42,10 +42,10 @@ for x in cell[1:6]:
         print(f"the corresponding price is {round(percent,2)}")
         if cell2[2].text=="Bitcoin1BTC" and number <40000:
             print(f"Danger, the Bitcoin has get below the $40,000, becareful!")
-           # textmsg=client.messages.create(to=myCellphone, from_=TwilioNumber,body='the Bitcoin price in danger zone')
+            textmsg=client.messages.create(to=myCellphone, from_=TwilioNumber,body='the Bitcoin price in danger zone')
 
         if cell2[2].text=="Ethereum2ETH" and number<3000:
             print(f"Danger, the ethereum has get below the $3,000, becareful!")
-          #  textmsg=client.messages.create(to=myCellphone, from_=TwilioNumber,body='the ethereum price is below 3000')
+            textmsg=client.messages.create(to=myCellphone, from_=TwilioNumber,body='the ethereum price is below 3000')
 
     print()

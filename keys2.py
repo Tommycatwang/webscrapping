@@ -1,2 +1,0 @@
-accountSID='AC22a006d9989748cd5d1278d8d7303b95'
-authToken='e03b28d49383a766769c606aca2fe6bd'
